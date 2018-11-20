@@ -1,4 +1,4 @@
-
+/*************************************************** NAV ************************************/
 
 nav.grid {
     background-color: #6cc091;
@@ -6,25 +6,37 @@ nav.grid {
 }
 .nav-item {
     text-align: center;
-    height: 100%;
     font-size: 20px;
 }
 
 .nav-item a {
-    text-align: center;
     text-decoration: none;
     color: inherit;
 }
 
-nav form {
-    margin: 0;
+/***** NAV FORM **********/
+
+@media (min-width: 767px) {
+    nav form {
+        margin: 0;
+        display: flex;
+    }
+    nav input {
+        margin-right: 20px;
+        margin-left: 5%;
+    }
 }
 
-
-#main {
+@media (max-width: 767px) {
+    nav input {
+        margin: 20px 0;
+    }
 }
 
 /************************************** INTRO ********************************************/
+
+#main {
+}
 
 .intro-container {
     padding: 75px 20%;
