@@ -1,0 +1,151 @@
+
+
+nav.grid {
+    background-color: #6cc091;
+    color: white;
+}
+.nav-item {
+    text-align: center;
+    height: 100%;
+    font-size: 20px;
+}
+
+.nav-item a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav form {
+    margin: 0;
+}
+
+
+#main {
+}
+
+/************************************** INTRO ********************************************/
+
+.intro-container {
+    padding: 75px 20%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.30),
+            rgba(255, 255, 255, 0.30)),
+    url("../image/bg2.jpg");
+}
+
+.intro-container h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 75px;
+}
+
+.intro-container h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.intro-item {
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 0 3%;
+    text-align:  center;
+    color: white;
+    font-size: 15px;
+    height: 200px;
+}
+
+.intro-item i {
+    color:  #6cc091;
+    display:  block;
+    font-size: 50px;
+}
+
+/******************************************* PROMOTIONS ****************************************/
+
+
+#promo {
+    padding-top: 30px;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.0),
+            rgba(225, 225, 225, 1),
+            rgba(225, 225, 225, 1),
+            rgba(225, 225, 225, 1)
+    ),
+    url("../image/bg_promo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#promo h1 {
+    margin-left: 25%;
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: #00474e;
+    font-weight: bolder;
+}
+#promo h2 {
+    margin: 0 25%;
+    font-size: 30px;
+    color: #04ab5e;
+    font-weight: bolder;
+}
+
+.promo-item {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+#promo .price span {
+    color: red;
+    font-size: 25px;
+}
+
+.promo-container {
+    background-color: white;
+    width: 70%;
+    margin-top: 40px;
+}
+
+/********************************************** FOOTER **********************************************/
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer table {
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    border: none;
+}
+
+footer table tbody tr {
+    border: none;
+}
+
+footer table tbody tr td {
+    padding: 0;
+}
+
+footer a {
+    text-decoration:  none;
+    color: inherit;
+}
+
+footer span {
+    display: block;
+    text-align: center;
+}
+
+
+
