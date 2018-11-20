@@ -1,17 +1,33 @@
 /*************************************************** NAV ************************************/
 
+
 nav.grid {
     background-color: #6cc091;
     color: white;
 }
-.nav-item {
-    text-align: center;
-    font-size: 20px;
-}
+
 
 .nav-item a {
     text-decoration: none;
     color: inherit;
+}
+
+@media (min-width: 767px) {
+    .nav-item {
+        text-align: center;
+        font-size: 20px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-item {
+        text-align: center;
+        font-size: 20px;
+    }
 }
 
 /***** NAV FORM **********/
@@ -20,10 +36,10 @@ nav.grid {
     nav form {
         margin: 0;
         display: flex;
+        width: 100%;
     }
-    nav input {
-        margin-right: 20px;
-        margin-left: 5%;
+    nav a {
+        margin: 0 5%;
     }
 }
 
@@ -50,6 +66,34 @@ nav.grid {
     url("../image/bg2.jpg");
 }
 
+/********** intro-item *****************/
+
+@media (min-width: 767px) {
+    .intro-item {
+        border-right: 2px solid rgba(0, 0, 0, 0.2);
+        padding: 0 3%;
+        text-align:  center;
+        color: white;
+        font-size: 15px;
+        height: 200px;
+    }
+
+    .intro-item:last-child {
+        border: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro-item {
+        text-align:  center;
+        color: white;
+        font-size: 15px;
+        height: 200px;
+    }
+}
+
+
+
 .intro-container h1 {
     text-align: center;
     font-size: 40px;
@@ -66,14 +110,6 @@ nav.grid {
     margin: 0;
 }
 
-.intro-item {
-    border-right: 2px solid rgba(0, 0, 0, 0.2);
-    padding: 0 3%;
-    text-align:  center;
-    color: white;
-    font-size: 15px;
-    height: 200px;
-}
 
 .intro-item i {
     color:  #6cc091;
@@ -84,18 +120,37 @@ nav.grid {
 /******************************************* PROMOTIONS ****************************************/
 
 
-#promo {
-    padding-top: 30px;
-    background-image: linear-gradient(
-            rgba(255, 255, 255, 0.0),
-            rgba(225, 225, 225, 1),
-            rgba(225, 225, 225, 1),
-            rgba(225, 225, 225, 1)
-    ),
-    url("../image/bg_promo.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+@media (min-width: 767px) {
+    #promo {
+        padding-top: 30px;
+        background-image:
+            linear-gradient(
+                rgba(230, 230, 230, 0.2),
+                rgba(230, 230, 230, 1),
+                rgba(230, 230, 230, 1)
+        ),
+                url("../image/bg_promo.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
+
+@media (max-width: 767px) {
+    #promo {
+        padding-top: 30px;
+        background-image:
+                linear-gradient(
+                        rgba(230, 230, 230, 0.2),
+                        rgba(230, 230, 230, 1),
+                        rgba(230, 230, 230, 1)
+                ),
+                url("../image/bg_promo_mobile.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
 
 #promo h1 {
     margin-left: 25%;
@@ -124,6 +179,7 @@ nav.grid {
 .promo-container {
     background-color: white;
     width: 70%;
+    margin: auto;
     margin-top: 40px;
 }
 
