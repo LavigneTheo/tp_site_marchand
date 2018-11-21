@@ -1,5 +1,21 @@
 /*************************************************** NAV ************************************/
 
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
 
 nav.grid {
     background-color: #6cc091;
@@ -96,7 +112,6 @@ nav.grid {
 
 .intro-container h1 {
     text-align: center;
-    font-size: 40px;
     color: white;
     font-weight: bolder;
     margin-bottom: 75px;
@@ -104,7 +119,6 @@ nav.grid {
 
 .intro-container h2 {
     text-align: center;
-    font-size: 30px;
     color: white;
     font-weight: bolder;
     margin: 0;
@@ -123,6 +137,7 @@ nav.grid {
 @media (min-width: 767px) {
     #promo {
         padding-top: 30px;
+        padding-bottom: 50px;
         background-image:
             linear-gradient(
                 rgba(230, 230, 230, 0.2),
@@ -132,6 +147,13 @@ nav.grid {
                 url("../image/bg_promo.jpg");
         background-size: contain;
         background-repeat: no-repeat;
+    }
+
+    .promo-container {
+        background-color: white;
+        width: 70%;
+        margin: auto;
+        margin-top: 40px;
     }
 }
 
@@ -148,6 +170,12 @@ nav.grid {
         background-size: contain;
         background-repeat: no-repeat;
     }
+    .promo-container {
+        background-color: white;
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+    }
 }
 
 
@@ -155,20 +183,19 @@ nav.grid {
 #promo h1 {
     margin-left: 25%;
     margin-bottom: 5px;
-    font-size: 40px;
     color: #00474e;
     font-weight: bolder;
 }
 #promo h2 {
     margin: 0 25%;
-    font-size: 30px;
     color: #04ab5e;
     font-weight: bolder;
 }
 
 .promo-item {
     text-align: center;
-    padding: 5% 10%;
+    padding: 5% 7%;
+    min-height: 400px;
 }
 
 #promo .price span {
@@ -176,24 +203,32 @@ nav.grid {
     font-size: 25px;
 }
 
-.promo-container {
-    background-color: white;
-    width: 70%;
-    margin: auto;
-    margin-top: 40px;
-}
+
 
 /********************************************** FOOTER **********************************************/
 
 footer {
-    background-color: black;
+    background-color: #6cc091;
     color: white;
 }
 
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+footer #social {
+    width: 30%;
+    font-size: 30px;
+}
+
+
+
 footer table {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    width: 50%;
+    width: 60%;
     border: none;
 }
 
@@ -201,9 +236,18 @@ footer table tbody tr {
     border: none;
 }
 
+footer table thead {
+    border: none;
+}
+
 footer table tbody tr td {
     padding: 0;
 }
+
+footer table thead tr td {
+    text-align: center;
+}
+
 
 footer a {
     text-decoration:  none;
@@ -213,6 +257,7 @@ footer a {
 footer span {
     display: block;
     text-align: center;
+    padding: 10px 0;
 }
 
 
