@@ -1,0 +1,215 @@
+/*************************************************** NAV ************************************/
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+nav.grid {
+    background-color: #6cc091;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 767px) {
+    .nav-item {
+        text-align: center;
+        font-size: 20px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-item {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+/***** NAV FORM **********/
+
+@media (min-width: 767px) {
+    nav form {
+        margin: 0;
+        display: flex;
+        width: 100%;
+    }
+    nav a {
+        margin: 0 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    nav input {
+        margin: 20px 0;
+    }
+}
+
+
+/****************************************** Etapes *********************************************/
+.etape .etape-item span:nth-child(2) {
+    padding-left: 30px;
+}
+
+.etape li {
+    display: inline;
+}
+
+
+@media (min-width: 767px) {
+    .etape ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .etape .etape-item {
+        display: flex;
+    }
+
+    .etape {
+        background-color: white;
+        font-size: 2em;
+        padding: 10px 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .etape ul {
+        display: table;
+        margin: auto;
+    }
+    .etape {
+        background-color: white;
+        font-size: 2em;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .etape .etape-item {
+        display: flex;
+        margin-top: 10px;
+    }
+}
+
+/********************************************* Circle *********************************************/
+
+.circle-blue {
+    height: 1.7em;
+    width: 1.7em;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: #1390be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.circle-grey {
+    height: 1.7em;
+    width: 1.7em;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+/********************************************** FOOTER **********************************************/
+
+footer {
+    background-color: #6cc091;
+    color: white;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+footer #social {
+    width: 30%;
+    font-size: 30px;
+}
+
+
+
+footer table {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    border: none;
+}
+
+footer table tbody tr {
+    border: none;
+}
+
+footer table thead {
+    border: none;
+}
+
+footer table tbody tr td {
+    padding: 0;
+}
+
+footer table thead tr td {
+    text-align: center;
+}
+
+
+footer a {
+    text-decoration:  none;
+    color: inherit;
+}
+
+footer span {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+.reduc {
+    color: black;
+    height: 3em;
+    width: 3em;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: #F7E900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

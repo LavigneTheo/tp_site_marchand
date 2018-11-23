@@ -229,29 +229,7 @@
     line-height: 1em;
 }
 
-.circle-blue {
-    height: 1.7em;
-    width: 1.7em;
-    font-weight: bolder;
-    border-radius: 50%;
-    background-color: #1390be;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
 
-.circle-grey {
-    height: 1.7em;
-    width: 1.7em;
-    font-weight: bolder;
-    border-radius: 50%;
-    background-color: rgb(230, 230, 230);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
 
 /******************************************* .liste-commande .payer-commance ********************************************/
 

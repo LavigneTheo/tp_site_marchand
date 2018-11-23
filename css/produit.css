@@ -159,7 +159,7 @@
 
 /***************************************************** Commentaire ****************************************************/
 
-.produit-container .commentaire h2 {
+.produit-container .laisser-commentaire h2 {
     color: #04ab5e;
     display: inline;
     border-bottom: 4px solid #04ab5e;
@@ -172,11 +172,11 @@
     border-bottom: solid rgba(230, 230, 230, 1) 1px;
 }
 
-.produit-container .commentaire h3 {
+.produit-container .laisser-commentaire h3 {
     padding: 0 6%;
 }
 
-.produit-container .commentaire form {
+.produit-container .laisser-commentaire form {
     width: 75%;
     margin: auto;
     margin-top: 20px;
@@ -184,22 +184,22 @@
     border-top: solid rgba(230, 230, 230, 1) 1px;
 }
 
-.produit-container .commentaire form input[type="submit"] {
+.produit-container .laisser-commentaire form input[type="submit"] {
     display: block;
     margin: auto;
     font-size: 1.2em;
     font-weight: bold;
 }
 
-.produit-container .commentaire .note {
+.produit-container .laisser-commentaire .note {
     padding: 10px 6%;
 }
 
-.produit-container .commentaire .note i {
+.produit-container .laisser-commentaire .note i {
     cursor: pointer;
 }
 
-.produit-container .commentaire .commentaire-header {
+.produit-container .laisser-commentaire .commentaire-header {
     display: flex;
     justify-content: flex-start;
     vertical-align: center;
@@ -208,14 +208,14 @@
     padding-bottom: 10px;
 }
 
-.produit-container .commentaire .commentaire-header > div {
+.produit-container .laisser-commentaire .commentaire-header > div {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.produit-container .commentaire form .form-field {
+.produit-container .laisser-commentaire form .form-field {
     padding-top: 10px;
 }
 
@@ -272,12 +272,28 @@
         background-color: white;
         margin-top: 30px;
     }
+
+    .produit-container .avis-client .barre-note-moyenne {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
 }
 
 @media (max-width: 767px) {
     .produit-container .avis-client {
         background-color: white;
         margin-top: 15px;
+    }
+
+    .produit-container .avis-client .barre-note-moyenne {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .produit-container .avis-client .note-moyenne {
+        margin-bottom: 10px;
     }
 }
 
@@ -304,7 +320,7 @@
         margin-top: 30px;
     }
 
-    .produit-container .commentaire {
+    .produit-container .laisser-commentaire {
         background-color: white;
         margin-top: 30px;
     }
@@ -331,7 +347,7 @@
         margin: 15px 0;
     }
 
-    .produit-container .commentaire {
+    .produit-container .laisser-commentaire {
         background-color: white;
         margin: 15px 0;
     }
