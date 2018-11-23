@@ -1,0 +1,343 @@
+
+
+
+.produit-container .grid {
+    margin: 0;
+    padding: 0;
+}
+
+.produit-container [class*='col-'] {
+    margin: 0;
+    padding: 0;
+}
+
+.produit-container h1 {
+    text-align: center;
+}
+
+.produit-container .produit .note i:nth-child(-n+2) {
+    color: #fbc02d;
+}
+
+.produit-container .produit .note {
+    border-bottom: solid rgba(230, 230, 230, 1) 1px;
+    padding: 10px 5px;
+}
+
+.produit-container .produit-body {
+    padding-top: 20px;
+}
+
+.produit-container .produit img {
+    display: block;
+    margin: auto;
+}
+
+.produit-body h2 {
+    color: #04ab5e;
+    display: inline;
+    border-bottom: 4px solid #04ab5e;
+    margin-left: 10%;
+}
+
+.produit-body p {
+    padding: 20px 30px;
+}
+
+/**************************************************** Ajouter-panier **********************************************/
+
+.ajouter-panier {
+    padding: 0 3%;
+}
+
+.produit-container .unite {
+    font-size: 50px;
+}
+
+.produit-container .centime {
+    font-size: 25px;
+}
+
+.ajouter-panier .price-container {
+    padding: 10px 7%;
+    border-bottom: solid rgba(230, 230, 230, 1) 1px;
+}
+
+.produit-container .price {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 192, 243);
+    line-height: 1em;
+    justify-content: space-between;
+}
+
+ .eco-taxe {
+    color: #006f9a;
+    font-size: 0.75em;
+    font-style: italic;
+    line-height: 1em;
+}
+
+.produit-container .ancient-prix {
+    font-size: 0.8em;
+    text-decoration: line-through;
+    line-height: 1em;
+}
+
+.ajouter-panier .chrono i {
+    font-size: 1.5em;
+    margin-right: 15%;
+    color: black;
+}
+
+.ajouter-panier .chrono {
+    display: flex;
+    align-content: center;
+    padding: 10px 0;
+}
+
+.ajouter-panier .button {
+    display: block;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.ajouter-panier .btn-ajouter {
+    padding-bottom: 20px;
+}
+
+
+
+/*********************************************** Similaire *************************************************/
+
+.similaire h2 {
+    padding-left: 6%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid rgba(230, 230, 230, 1) 1px;
+}
+
+.similaire .similaire-item {
+    height: 250px;
+    margin-top: 10px;
+    padding: 0 20%;
+}
+
+.produit-container .similaire img {
+    display: block;
+    margin: auto;
+}
+
+.similaire .similaire-item h4 {
+    text-align: center;
+}
+
+.similaire .similaire-item .note {
+    text-align: center;
+}
+
+.produit-container .similaire .unite {
+    font-size: 25px;
+}
+
+.produit-container .similaire .centime {
+    font-size: 12px;
+}
+
+.produit-container .similaire .reduc {
+    color: black;
+    font-size: 10px;
+    height: 3em;
+    width: 3em;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: #F7E900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/***************************************************** Commentaire ****************************************************/
+
+.produit-container .commentaire h2 {
+    color: #04ab5e;
+    display: inline;
+    border-bottom: 4px solid #04ab5e;
+    margin-left: 6%;
+}
+
+.produit-container .title {
+    padding-top: 10px;
+    padding-bottom: 16px;
+    border-bottom: solid rgba(230, 230, 230, 1) 1px;
+}
+
+.produit-container .commentaire h3 {
+    padding: 0 6%;
+}
+
+.produit-container .commentaire form {
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: solid rgba(230, 230, 230, 1) 1px;
+}
+
+.produit-container .commentaire form input[type="submit"] {
+    display: block;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.produit-container .commentaire .note {
+    padding: 10px 6%;
+}
+
+.produit-container .commentaire .note i {
+    cursor: pointer;
+}
+
+.produit-container .commentaire .commentaire-header {
+    display: flex;
+    justify-content: flex-start;
+    vertical-align: center;
+    padding-left: 12.5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.produit-container .commentaire .commentaire-header > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.produit-container .commentaire form .form-field {
+    padding-top: 10px;
+}
+
+/********************************************* Avis Clients ********************************************************/
+
+.produit-container .avis-client h2 {
+    color: #04ab5e;
+    display: inline;
+    border-bottom: 4px solid #04ab5e;
+    margin-left: 6%;
+}
+
+.produit-container .avis-client h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.produit-container .avis-client .barre {
+    height: 20px;
+    width: 300px;
+    background-color: rgb(230, 230, 230);
+}
+
+.produit-container .avis-client .fill1 {
+    width: 53%;
+    background: #fbc02d;
+    height: 20px;
+}
+
+.produit-container .avis-client .fill2 {
+    width: 27%;
+    background: #fbc02d;
+    height: 20px;
+}
+.produit-container .avis-client .fill3 {
+    width: 12%;
+    background: #fbc02d;
+    height: 20px;
+}
+
+.produit-container .avis-client .fill4 {
+    width: 15%;
+    background: #fbc02d;
+    height: 20px;
+}
+
+.produit-container .avis-client .note-barre {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 767px) {
+    .produit-container .avis-client {
+        background-color: white;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .produit-container .avis-client {
+        background-color: white;
+        margin-top: 15px;
+    }
+}
+
+
+/********************************************* .produit-container .ajouter-panier .similaire *************************/
+
+@media (min-width: 767px) {
+    .produit-container {
+        background-color: rgba(230, 230, 230, 1);
+        padding: 30px 2%;
+    }
+
+    .produit-container .produit {
+        background-color: white;
+    }
+
+    .produit-container .ajouter-panier {
+        background-color: white;
+        margin-left: 30px;
+    }
+
+    .produit-container .similaire {
+        background-color: white;
+        margin-top: 30px;
+    }
+
+    .produit-container .commentaire {
+        background-color: white;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .produit-container {
+        background-color: rgba(230, 230, 230, 1);
+    }
+
+    .produit-container .produit {
+        background-color: white;
+        margin-top: 15px;
+    }
+
+    .produit-container .ajouter-panier {
+        margin-top: 15px;
+        background-color: white;
+    }
+
+    .produit-container .similaire {
+        background-color: white;
+        margin: 15px 0;
+    }
+
+    .produit-container .commentaire {
+        background-color: white;
+        margin: 15px 0;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Micropachycephalosaurus">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/simplegrid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/panier.css">
+
+    <title>Votre panier</title>
+</head>
+<body>
+
+<nav class="grid">
+    <div class="col-2-12 nav-item">
+        <a href="index.html">home</a>
+    </div>
+    <div class="col-2-12 nav-item">
+        <a href="panier.html">panier</a>
+    </div>
+    <div class="col-2-12 nav-item">
+        <a href="#">a propos</a>
+    </div>
+
+    <div class="col-6-12 nav-item">
+        <form action="none">
+            <input type="text" id="recherche">
+            <a href="#" class="button green alt">rechercher</a>
+        </form>
+    </div>
+</nav>
+
+<div class="panier-container">
+
+    <!---------------------------------------- Etapes ------------------------------------------>
+
+    <div class="etape">
+        <ul>
+            <li>
+                <div class="etape-item">
+                    <span class="circle-blue">1</span>
+                    <span class="actif">Panier</span>
+                </div>
+            </li>
+            <li>
+                <div class="etape-item">
+                    <span class="circle-grey">2</span>
+                    <span>Livraison</span>
+                </div>
+            </li>
+            <li>
+                <div class="etape-item">
+                    <span class="circle-grey">3</span>
+                    <span>Payement</span>
+                </div>
+            </li>
+        </ul>
+
+
+
+
+
+    </div>
+
+    <!--------------------------------------- Liste de la commande ----------------------------->
+
+    <div class="grid">
+        <div class="col-2-3">
+
+            <section class="liste-commande">
+
+                <!---------------------------- Skin list item ----------------------------------->
+                <div class="skin-list-item">
+                    <img src="image/skin4.png" width="100" height="100" alt="skin">
+                    <div class="resume">
+                        <h3>skin dinausore</h3>
+                        <p>Un skin approprié au joueurs d...</p>
+                    </div>
+                    <div class="price-remove-container">
+                        <div class="price-container">
+                            <span class="ancient-prix">&nbsp;</span>
+                            <div class="price">
+                                <div>
+                                    <span class="unite">89€</span> <span class="centime">99</span>
+                                </div>
+
+                                <div class="no-reduc"></div>
+                            </div>
+                            <div class="eco-taxe">Dont 0.02€ d'eco-taxe</div>
+                        </div>
+                        <a href="#">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <!------------------------------------------- Fin skin list-item ---------------------------->
+
+                <div class="skin-list-item">
+                    <img src="image/skin1.jpg" width="100" height="100" alt="skin">
+                    <div class="resume">
+                        <h3>skin sombre</h3>
+                        <p>Un skin approprié au joueurs d...</p>
+                    </div>
+                    <div class="price-remove-container">
+                        <div class="price-container">
+                            <span class="ancient-prix">97€99</span>
+                            <div class="price">
+                                <div>
+                                    <span class="unite">89€</span> <span class="centime">99</span>
+                                </div>
+
+                                <div class="reduc">
+                                    <span>-10%</span>
+                                </div>
+                            </div>
+                            <div class="eco-taxe">Dont 0.02€ d'eco-taxe</div>
+                        </div>
+                        <a href="#">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="skin-list-item">
+                    <img src="image/skin2.png" width="100" height="100" alt="skin">
+                    <div class="resume">
+                        <h3>skin ténébreux</h3>
+                        <p>Un skin approprié au joueurs d...</p>
+                    </div>
+                    <div class="price-remove-container">
+
+                        <div class="price-container">
+                            <span class="ancient-prix">&nbsp;</span>
+                            <div class="price">
+                                <div>
+                                    <span class="unite">89€</span> <span class="centime">99</span>
+                                </div>
+
+                                <div class="no-reduc"></div>
+                            </div>
+                            <div class="eco-taxe">Dont 0.02€ d'eco-taxe</div>
+                        </div>
+                        <a href="#">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="skin-list-item">
+                    <img src="image/skin3.jpeg" width="100" height="100" alt="skin">
+                    <div class="resume">
+                        <h3>skin cosmique</h3>
+                        <p>Un skin approprié au joueurs d...</p>
+                    </div>
+                    <div class="price-remove-container">
+
+                        <div class="price-container">
+                            <span class="ancient-prix">97€99</span>
+                            <div class="price">
+                                <div>
+                                    <span class="unite">89€</span> <span class="centime">99</span>
+                                </div>
+
+                                <div class="reduc">
+                                    <span>-25%</span>
+                                </div>
+                            </div>
+                            <div class="eco-taxe">Dont 0.02€ d'eco-taxe</div>
+                        </div>
+                        <a href="#">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--------------------------------------- Payer commande ----------------------------->
+
+        <div class="col-1-3">
+            <aside class="payer-commande">
+                <h2>Total</h2>
+
+                <div class="item-price-container">
+                    <div class="item-price">
+                        <span class="item-name">Skin dinausore</span>
+
+                        <div class="price">
+                            <span class="unite">89€</span>
+                            <span class="centime">99</span>
+                        </div>
+                    </div>
+
+                    <div class="item-price">
+                        <span class="item-name">Skin sombre</span>
+
+                        <div class="price">
+                            <span class="unite">79€</span>
+                            <span class="centime">99</span>
+                        </div>
+                    </div>
+
+                    <div class="item-price">
+                        <span class="item-name">Skin tenebreux</span>
+
+                        <div class="price">
+                            <span class="unite">54€</span>
+                            <span class="centime">99</span>
+                        </div>
+                    </div>
+
+                    <div class="item-price">
+                        <span class="item-name">Skin cosmique</span>
+
+                        <div class="price">
+                            <span class="unite">89€</span>
+                            <span class="centime">99</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="total-price">
+                    <span>Total à payer : </span>
+                    <div class="price">
+                        <span class="unite">219€</span>
+                        <span class="centime">96</span>
+                    </div>
+
+                </div>
+                <a href="#" class="button white">Commander</a>
+                <div class="secure">
+                    <span>
+                        <i class="fas fa-lock"></i>
+                    <span>payement sécurisé</span>
+                    </span>
+                </div>
+                <div class="satisfait-rembourse">
+                    <span>
+                        <i class="fas fa-undo-alt"></i>
+                    <span>satisfait ou rembousé (<a href="#">voir contitions</a>)</span>
+                    </span>
+                </div>
+
+            </aside>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<footer>
+
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <td colspan="2"><h3>Divers</h3></td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="#">
+                        Conditions générales de vente
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        Vos informations personnelles
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#">
+                        Cookies
+                    </a>
+                </td>
+                <td>
+                    <a href="#">
+                        Annonces basées sur vos centres d’intérêt
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div id="social">
+            <h3>Social</h3>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"> <i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <span>
+            © 1996-2018, Fortnite-skin, Inc. ou ses filiales.
+        </span>
+</footer>
+
+</body>
+</html>

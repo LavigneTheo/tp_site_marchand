@@ -1,0 +1,311 @@
+
+
+.panier-container .grid {
+    margin: 0;
+    padding: 0;
+}
+
+.panier-container [class*='col-'] {
+    margin: 0;
+    padding: 0;
+}
+
+/******************************************** Etape ***************************************************/
+
+.panier-container .etape .etape-item span:nth-child(2) {
+    padding-left: 30px;
+}
+
+.etape li {
+    display: inline;
+}
+
+
+@media (min-width: 767px) {
+    .etape ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .etape ul {
+        display: table;
+        margin: auto;
+    }
+}
+
+
+/******************************************* Payer-commande ********************************************/
+
+
+.panier-container .payer-commande h2 {
+    color: inherit;
+    text-align: center;
+}
+
+.panier-container .payer-commande .item-price-container .item-name {
+    color: inherit;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.panier-container .payer-commande .item-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panier-container .payer-commande .item-price .unite {
+    color: inherit;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.panier-container .payer-commande .item-price-container {
+    border-bottom: solid rgba(230, 230, 230, 1) 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.panier-container .payer-commande .total-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panier-container .payer-commande .total-price > span {
+    color: inherit;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+
+.panier-container .payer-commande .total-price .unite {
+    color: inherit;
+    font-size: 1.4em;
+}
+
+.panier-container .payer-commande .button {
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+
+.panier-container .payer-commande .secure {
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.panier-container .payer-commande .satisfait-rembourse {
+    font-style: italic;
+}
+
+.panier-container .payer-commande .satisfait-rembourse a:hover {
+    color: #024d69;
+}
+
+.payer-commande i {
+    margin-right: 0.5em !important;
+}
+
+/******************************************* Liste-commande ********************************************/
+
+.panier-container .liste-commande {
+    margin-top: 30px;
+    background: white;
+    padding: 10px 2.5%;
+}
+
+.panier-container .liste-commande .skin-list-item .unite {
+    font-size: 50px;
+}
+
+.panier-container .liste-commande .skin-list-item .centime {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+
+
+.panier-container .liste-commande .skin-list-item .price {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 192, 243);
+    line-height: 1em;
+    justify-content: flex-start;
+}
+
+
+.panier-container .liste-commande .skin-list-item .ancient-prix {
+    font-size: 0.8em;
+    text-decoration: line-through;
+    line-height: 1em;
+}
+
+.panier-container .liste-commande .skin-list-item .price-remove-container {
+    flex-grow: 100;
+}
+
+
+.panier-container .liste-commande .skin-list-item .price-remove-container a{
+    font-size: 1.5em;
+    margin-right: 10%;
+    margin-left: 10px;
+}
+
+.panier-container .liste-commande .skin-list-item .price-remove-container a:hover {
+    color: red;
+}
+
+.panier-container .liste-commande .skin-list-item .resume {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.panier-container .liste-commande .skin-list-item:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+.panier-container .liste-commande .skin-list-item .price-container {
+
+}
+
+
+@media (min-width: 767px) {
+    .panier-container .liste-commande .skin-list-item {
+        display: flex;
+        border-bottom: solid 1px rgb(230, 230, 230);
+        padding-bottom: 10px;
+    }
+
+    .panier-container .liste-commande .skin-list-item .price-remove-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 767px) {
+    .panier-container .liste-commande .skin-list-item {
+        display: flex;
+        flex-direction: column;
+        border-bottom: solid 1px rgb(230, 230, 230);
+        padding-bottom: 10px;
+    }
+    .panier-container .liste-commande .skin-list-item .price-remove-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .panier-container .liste-commande .skin-list-item img {
+        display: block;
+        margin: auto;
+    }
+}
+
+
+
+
+
+/***************************************** Autre **************************************/
+
+.actif {
+    color: #1390be;
+}
+
+.no-reduc {
+    color: transparent;
+    height: 3em;
+    width: 3em;
+    background-color: transparent;
+}
+
+.eco-taxe {
+    color: #006f9a;
+    font-size: 0.75em;
+    font-style: italic;
+    line-height: 1em;
+}
+
+.circle-blue {
+    height: 1.7em;
+    width: 1.7em;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: #1390be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.circle-grey {
+    height: 1.7em;
+    width: 1.7em;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/******************************************* .liste-commande .payer-commance ********************************************/
+
+
+@media (min-width: 767px) {
+    .panier-container {
+        background-color: rgba(230, 230, 230, 1);
+        padding: 30px 2%;
+    }
+
+    .panier-container .payer-commande {
+        background-color: #1390be;
+        margin-left: 30px;
+        color: white;
+        padding: 10px 3%;
+    }
+
+    .panier-container .etape .etape-item {
+        display: flex;
+    }
+
+    .panier-container .etape {
+        background-color: white;
+        font-size: 2em;
+        padding: 10px 0;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .panier-container {
+        background-color: rgba(230, 230, 230, 1);
+        padding: 30px 0;
+    }
+
+    .panier-container .etape {
+        background-color: white;
+        font-size: 2em;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .panier-container .etape .etape-item {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .panier-container .payer-commande {
+        background-color: #1390be;
+        color: white;
+        padding: 10px 3%;
+        margin-top: 15px;
+    }
+}

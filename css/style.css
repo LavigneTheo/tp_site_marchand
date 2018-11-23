@@ -15,6 +15,11 @@ h3 {
     font-weight: bolder;
 }
 
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 
 nav.grid {
@@ -23,7 +28,7 @@ nav.grid {
 }
 
 
-.nav-item a {
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -186,6 +191,7 @@ nav.grid {
     color: #00474e;
     font-weight: bolder;
 }
+
 #promo h2 {
     margin: 0 25%;
     color: #04ab5e;
@@ -202,8 +208,6 @@ nav.grid {
     color: red;
     font-size: 25px;
 }
-
-
 
 /********************************************** FOOTER **********************************************/
 
@@ -262,3 +266,14 @@ footer span {
 
 
 
+.reduc {
+    color: black;
+    height: 3em;
+    width: 3em;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: #F7E900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
