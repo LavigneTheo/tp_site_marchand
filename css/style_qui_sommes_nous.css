@@ -1,0 +1,65 @@
+/************************************** INTRO ********************************************/
+
+#main {
+}
+
+.intro-container {
+    padding: 75px 20%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.30),
+            rgba(255, 255, 255, 0.30)),
+    url("../image/fond2.jpg");
+}
+
+/********** intro-item *****************/
+
+@media (min-width: 767px) {
+    .intro-item {
+        border-right: 2px solid rgba(0, 0, 0, 0.2);
+        padding: 0 3%;
+        text-align:  center;
+        color: white;
+        font-size: 15px;
+        height: 200px;
+    }
+
+    .intro-item:last-child {
+        border: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro-item {
+        text-align:  center;
+        color: white;
+        font-size: 15px;
+        height: 200px;
+    }
+}
+
+
+
+.intro-container h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 75px;
+}
+
+.intro-container h2 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+}
+
+
+.intro-item i {
+    color:  #6cc091;
+    display:  block;
+    font-size: 50px;
+}

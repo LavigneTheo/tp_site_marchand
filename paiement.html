@@ -1,0 +1,223 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+
+    <title>Paiement</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/simplegrid.css">
+    <link rel="stylesheet" href="css/style_paiement.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/base.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="grid">
+            <div class="col-2-12 nav-item">
+                <a href="index.html">Accueil</a>
+            </div>
+            <div class="col-2-12 nav-item">
+                <a href="panier.html">Panier</a>
+            </div>
+            <div class="col-2-12 nav-item">
+                <a href="qui_sommes_nous.html">Qui sommes-nous ?</a>
+            </div>
+
+            <div class="col-6-12 nav-item">
+                <form action="none">
+                    <input type="text" id="recherche">
+                    <a href="#" class="button alt">rechercher</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="validationcommandecontainer">
+        <div class="etape">
+            <ul>
+                <li>
+                    <div class="etape-item">
+                        <span class="circle-blue">1</span>
+                        <span class="actif">Panier</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="etape-item">
+                        <span class="circle-blue">2</span>
+                        <span>Livraison</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="etape-item">
+                        <span class="circle-blue">3</span>
+                        <span>Paiement</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--  adresse de livraison     -->
+
+        <section class="formulaire1">
+            <h1 class="title">3 . Récapitulatif de la commande</h1>
+            <div class="container">
+                <div class="grid grid-pad">
+
+                <div class="panier-container">
+                    <aside class="payer-commande">
+
+                        <div class="item-price-container">
+                            <div class="item-price">
+                                <span class="item-name">Skin dinosaure</span>
+
+                                <div class="price">
+                                    <span class="unite">89€</span>
+                                    <span class="centime">99</span>
+                                </div>
+                            </div>
+
+                            <div class="item-price">
+                                <span class="item-name">Skin sombre</span>
+
+                                <div class="price">
+                                    <span class="unite">79€</span>
+                                    <span class="centime">99</span>
+                                </div>
+                            </div>
+
+                            <div class="item-price">
+                                <span class="item-name">Skin tenebreux</span>
+
+                                <div class="price">
+                                    <span class="unite">54€</span>
+                                    <span class="centime">99</span>
+                                </div>
+                            </div>
+
+                            <div class="item-price">
+                                <span class="item-name">Skin cosmique</span>
+
+                                <div class="price">
+                                    <span class="unite">89€</span>
+                                    <span class="centime">99</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="total-price">
+                            <span>Total à payer : </span>
+                            <div class="price">
+                                <span class="unite">219€</span>
+                                <span class="centime">96</span>
+                            </div>
+
+                        </div>
+
+                    </aside>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </section>
+        <!--  coordonnées client    -->
+
+        <section class="formulaire2">
+            <h1 class="title">4 . Mode de paiement</h1>
+            <div class="grid grid-pad">
+
+                <div class="col-4-12">
+                    <input class="pbutton" type="image" id="image1" alt="Login" src="image/logopaypal.png">
+                </div>
+                <div class="col-4-12">
+                    <input class="pbutton" type="image" id="image2" alt="Login" src="image/logovisa.png">
+
+                </div>
+                <div class="col-4-12">
+                    <input class="pbutton" type="image" id="image3" alt="Login" src="image/logomastercard.png">
+                </div>
+
+            </div>
+
+            <div class="buttonNext">
+                <a href="index.html" class="button">Valider</a>
+            </div>
+        </section>
+
+
+
+    </div>
+
+    <footer>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="2">
+                            <h3>Divers</h3>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="#">
+                                Conditions générales de vente
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">
+                                Vos informations personnelles
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                                Cookies
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">
+                                Annonces basées sur vos centres d’intérêt
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="social">
+                <h3>Social</h3>
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+
+        <span>
+            © 1996-2018, Fortnite-skin, Inc. ou ses filiales.
+        </span>
+    </footer>
+</body>
+
+</html>

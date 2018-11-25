@@ -1,3 +1,52 @@
-.title {text-align: center}
 
-li {list-style-type: circle;}
+.validationcommandecontainer{
+    padding: 30px 2%;
+}
+
+.title {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    margin-top: 10px
+}
+
+.formulaire1 {
+    margin : auto;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.formulaire2{
+    background-color: white;
+    padding : 10px 0%;
+    margin-top: 30px;
+}
+
+p  {
+    text-align: center;
+    padding: 10px;
+}
+
+input[type="text"],.formulaire {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formulaire2 input{
+    width: 45%;
+    margin:auto;
+}
+
+.buttonNext {
+    text-align: center;
+
+}
+
+@media (max-width: 767px) {
+    .formulaire2 input{
+        width: 80%;
+        margin:auto;
+    }
+}

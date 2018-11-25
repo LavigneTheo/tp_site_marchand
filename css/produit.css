@@ -1,6 +1,3 @@
-
-
-
 .produit-container .grid {
     margin: 0;
     padding: 0;
@@ -105,8 +102,6 @@
 .ajouter-panier .btn-ajouter {
     padding-bottom: 20px;
 }
-
-
 
 /*********************************************** Similaire *************************************************/
 
@@ -266,6 +261,52 @@
     display: flex;
     align-items: center;
 }
+
+.produit-container .avis-client .liste-commentaire h4 {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.produit-container .avis-client .commentaire {
+    padding: 10px 5%;
+    margin-bottom: 30px;
+}
+
+.produit-container .avis-client .commentaire-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produit-container .avis-client .commentaire-header div {
+    display: flex;
+    align-items: center;
+}
+
+.produit-container .avis-client .commentaire-header a {
+    color: #006f9a;
+    padding: 0 10px;
+}
+
+.produit-container .avis-client .commentaire-header a:hover {
+    color: rgb(0, 192, 243);
+}
+
+.produit-container .avis-client .commentaire p {
+    padding: 5px 0;
+}
+
+.produit-container .avis-client .commentaire .yes {
+    color: rgb(141, 204, 2);
+    font-size: 1.2em;
+}
+
+
+
+.produit-container .avis-client .commentaire .no {
+    color: #F0470E;
+    font-size: 1.2em;
+}
+
 
 @media (min-width: 767px) {
     .produit-container .avis-client {

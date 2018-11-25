@@ -20,24 +20,27 @@
 </head>
 <body>
 
-    <nav class="grid">
-        <div class="col-2-12 nav-item">
-            <a href="index.html">home</a>
-        </div>
-        <div class="col-2-12 nav-item">
-            <a href="panier.html">panier</a>
-        </div>
-        <div class="col-2-12 nav-item">
-            <a href="#">a propos</a>
-        </div>
+    <header>
+        <nav class="grid">
+            <div class="col-2-12 nav-item">
+                <a href="index.html">home</a>
+            </div>
+            <div class="col-2-12 nav-item">
+                <a href="panier.html">panier</a>
+            </div>
+            <div class="col-2-12 nav-item">
+                <a href="qui_sommes_nous.html">A propos</a>
+            </div>
 
-        <div class="col-6-12 nav-item">
-            <form action="none">
-                <input type="text" id="recherche">
-                <a href="#" class="button green alt">rechercher</a>
-            </form>
-        </div>
-    </nav>
+            <div class="col-6-12 nav-item">
+                <form action="none">
+                    <input type="text" id="recherche">
+                    <a href="#" class="button green alt">rechercher</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+
 
     <div class="produit-container">
         <div class="grid">
@@ -207,6 +210,7 @@
             </div>
         </section>
 
+        <!--------------- Laisser commantaire ----------------->
         <section class="laisser-commentaire">
             <div class="title">
                 <h2>Je donne mon avis</h2>
@@ -250,7 +254,7 @@
 
                         <div class="form-field">
                             <input type="checkbox" id="contidition-utilisation" name="contidition-utilisation">
-                            <label for="contidition-utilisation">J'accepte les conditions d'utilistion</label>
+                            <label for="contidition-utilisation">Je recommande ce skin</label>
                         </div>
 
                         <input type="submit" value="Envoyer">
@@ -261,7 +265,7 @@
 
         </section>
 
-
+        <!--------------- Avis client ----------------->
         <section class="avis-client">
             <div class="title">
                 <h2>Avis clients</h2>
@@ -325,12 +329,108 @@
                 </div>
             </div>
 
+            <!------------------------------------- Liste Commentaire -------------------------------->
 
+            <div class="liste-commentaire">
+                <h4>Commentaire 1 - 10 sur 219</h4>
+
+                <div class="commentaire">
+                    <div class="commentaire-header">
+                        <div>
+                            <div class="commentaire-note">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#">TREXausaure</a>
+                            <span class="time">&nbsp;.&nbsp;il y a 6 jours</span>
+                        </div>
+                        <img src="image/acheteur-verif.png" height="20" alt="acheteur vérifié">
+                    </div>
+                    <div class="commentaire-body">
+                        <h5>WOW! Trop bien!</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia quibusdam velit? Ab
+                            autem commodi dolorum fugit id itaque nihil, officia omnis pariatur provident quidem, quod
+                            veniam! Dolorum est, labore?
+                        </p>
+                        <div class="recommande">
+                            <i class="fas fa-check yes"></i>
+                            <span class="yes">Oui, </span>
+                            <span>Je recommande ce skin</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="commentaire">
+                    <div class="commentaire-header">
+                        <div>
+                            <div class="commentaire-note">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#">xX-BRONCHIOSAURE-Xx</a>
+                            <span class="time">&nbsp;.&nbsp;il y a 8 jours</span>
+                        </div>
+                        <img src="image/acheteur-verif.png" height="20" alt="acheteur vérifié">
+                    </div>
+                    <div class="commentaire-body">
+                        <h5>Encore un skin Trex... Et nous les bronchiosaures?</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia quibusdam velit? Ab
+                            autem commodi dolorum fugit id itaque nihil, officia omnis pariatur provident quidem, quod
+                            veniam! Dolorum est, labore?
+                        </p>
+                        <div class="recommande">
+                            <i class="fas fa-times-circle no"></i>
+                            <span class="no">Non, </span>
+                            <span>Je ne recommande pas ce skin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="commentaire">
+                    <div class="commentaire-header">
+                        <div>
+                            <div class="commentaire-note">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#">Asuso37</a>
+                            <span class="time">&nbsp;.&nbsp;il y a 14 jours</span>
+                        </div>
+                        <img src="image/acheteur-verif.png" height="20" alt="acheteur vérifié">
+                    </div>
+                    <div class="commentaire-body">
+                        <h5>Pas mal.</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam mollitia quibusdam velit? Ab
+                            autem commodi dolorum fugit id itaque nihil, officia omnis pariatur provident quidem, quod
+                            veniam! Dolorum est, labore?
+                        </p>
+                        <div class="recommande">
+                            <i class="fas fa-check yes"></i>
+                            <span class="yes">Oui, </span>
+                            <span>Je recommande ce skin</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
     </div>
 
-<footer>
+    <footer>
 
     <div>
         <table>
