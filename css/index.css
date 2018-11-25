@@ -64,7 +64,14 @@
     display:  block;
     font-size: 50px;
 }
+.promo-container {
+    background-color: white;
+}
 
+.promo-container .price-container{
+    text-align: initial;
+    padding: 10px 5%;
+}
 
 
 /******************************************* PROMOTIONS ****************************************/
@@ -72,45 +79,16 @@
 
 @media (min-width: 767px) {
     #promo {
-        padding-top: 30px;
-        padding-bottom: 50px;
-        background-image:
-                linear-gradient(
-                        rgba(230, 230, 230, 0.2),
-                        rgba(230, 230, 230, 1),
-                        rgba(230, 230, 230, 1)
-                ),
-                url("../image/bg_promo.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
+        padding: 30px 2%;
+        background-color: rgb(230, 230, 230);
     }
 
-    .promo-container {
-        background-color: white;
-        width: 70%;
-        margin: auto;
-        margin-top: 40px;
-    }
+
 }
 
 @media (max-width: 767px) {
     #promo {
-        padding-top: 30px;
-        background-image:
-                linear-gradient(
-                        rgba(230, 230, 230, 0.2),
-                        rgba(230, 230, 230, 1),
-                        rgba(230, 230, 230, 1)
-                ),
-                url("../image/bg_promo_mobile.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    .promo-container {
-        background-color: white;
-        width: 100%;
-        margin: auto;
-        margin-top: 40px;
+        background-color: rgb(230, 230, 230);
     }
 }
 
@@ -133,9 +111,4 @@
     text-align: center;
     padding: 5% 7%;
     min-height: 400px;
-}
-
-#promo .price span {
-    color: red;
-    font-size: 25px;
 }

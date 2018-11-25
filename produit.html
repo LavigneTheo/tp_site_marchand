@@ -23,7 +23,9 @@
     <header>
         <nav class="grid">
             <div class="col-2-12 nav-item">
-                <a href="index.html">home</a>
+                <a href="index.html">
+                    <img src="image/logo1.png" height="75" alt="logo">
+                </a>
             </div>
             <div class="col-2-12 nav-item">
                 <a href="panier.html">panier</a>
@@ -42,7 +44,7 @@
     </header>
 
 
-    <div class="produit-container">
+    <main class="produit-container">
         <div class="grid">
             <div class="col-2-3">
                 <!--------------- Article ---------------->
@@ -57,7 +59,7 @@
                         <i class="fas fa-star"></i>
                         </span>
                         <span>
-                            <a href="#">15 notes clients</a>
+                            <a href="#avis-client">15 notes clients</a>
                         </span>
                     </div>
                     <div class="produit-body">
@@ -102,6 +104,7 @@
                         <a href="#" class="button blue icon fa-shopping-cart">Ajouter</a>
                     </div>
                 </aside>
+
             </div>
 
         </div>
@@ -110,7 +113,8 @@
         <section class="similaire">
             <h2>Ca pourrait vous intéresser</h2>
             <div class="grid">
-                <div class="col-1-4">
+
+                <article class="col-1-4">
                     <a href="#">
                         <div class="similaire-item">
                             <img src="image/skin1.jpg" width="100" height="100" alt="skin">
@@ -136,8 +140,9 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-1-4">
+                </article>
+
+                <article class="col-1-4">
                     <a href="#">
                         <div class="similaire-item">
                             <img src="image/skin2.png" width="100" height="100" alt="skin">
@@ -160,8 +165,9 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-1-4">
+                </article>
+
+                <article class="col-1-4">
                     <a href="#">
                         <div class="similaire-item">
                             <img src="image/skin3.jpeg" width="100" height="100" alt="skin">
@@ -183,8 +189,9 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-1-4">
+                </article>
+
+                <article class="col-1-4">
                     <a href="#">
                         <div class="similaire-item">
                             <img src="image/skin4.png" width="100" height="100" alt="skin">
@@ -206,7 +213,8 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </article>
+
             </div>
         </section>
 
@@ -239,7 +247,7 @@
 
 
 
-                    <form action="">
+                    <form>
 
                         <div class="form-field">
                             <label for="commentaire-title">Titre du commentaire :</label>
@@ -266,7 +274,7 @@
         </section>
 
         <!--------------- Avis client ----------------->
-        <section class="avis-client">
+        <section id="avis-client">
             <div class="title">
                 <h2>Avis clients</h2>
             </div>
@@ -334,7 +342,7 @@
             <div class="liste-commentaire">
                 <h4>Commentaire 1 - 10 sur 219</h4>
 
-                <div class="commentaire">
+                <article class="commentaire">
                     <div class="commentaire-header">
                         <div>
                             <div class="commentaire-note">
@@ -362,10 +370,9 @@
                             <span>Je recommande ce skin</span>
                         </div>
                     </div>
-                </div>
+                </article>
 
-
-                <div class="commentaire">
+                <article class="commentaire">
                     <div class="commentaire-header">
                         <div>
                             <div class="commentaire-note">
@@ -393,9 +400,9 @@
                             <span>Je ne recommande pas ce skin</span>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="commentaire">
+                <article class="commentaire">
                     <div class="commentaire-header">
                         <div>
                             <div class="commentaire-note">
@@ -423,12 +430,27 @@
                             <span>Je recommande ce skin</span>
                         </div>
                     </div>
-                </div>
+                </article>
 
             </div>
+
+
+            <!----------------------------------- Pagination ------------------------------------------>
+
+            <div class="pagination">
+                <p class="pagination-number active"><span>1</span></p>
+                <p class="pagination-number"><a href="#">2</a></p>
+                <p class="pagination-number"><a href="#">3</a></p>
+                <p class="pagination-number"><a href="#">4</a></p>
+                <p class="pagination-number"><span>...</span></p>
+                <a href="#">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+
         </section>
 
-    </div>
+    </main>
 
     <footer>
 

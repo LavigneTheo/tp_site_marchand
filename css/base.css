@@ -78,20 +78,20 @@ a {
 /************************************************** Prices *******************************************************/
 
 .unite {
-    font-size: 50px;
+    font-size: 3.5em;
 }
 
 .centime {
-    font-size: 25px;
+    font-size: 2em;
     padding-right: 10px;
 }
 
 .price {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: rgb(0, 192, 243);
     line-height: 1em;
-    justify-content: flex-start;
 }
 
 

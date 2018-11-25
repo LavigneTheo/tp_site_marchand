@@ -55,12 +55,19 @@
 .panier-container .payer-commande .item-price {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .panier-container .payer-commande .item-price .unite {
-    color: inherit;
+    color: white;
     font-weight: bolder;
-    font-size: 1.2em;
+    font-size: 1.4em;
+}
+
+.panier-container .payer-commande .item-price .centime {
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
 }
 
 .panier-container .payer-commande .item-price-container {
@@ -76,13 +83,18 @@
 
 .panier-container .payer-commande .total-price > span {
     color: inherit;
-    font-size: 1.4em;
+    font-size: 1.6em;
     padding-bottom: 10px;
 }
 
 .panier-container .payer-commande .total-price .unite {
-    color: inherit;
-    font-size: 1.4em;
+    color: white;
+    font-size: 1.6em;
+}
+
+.panier-container .payer-commande .total-price .centime {
+    color: white;
+    font-size: 1.1em;
 }
 
 .panier-container .payer-commande .button {

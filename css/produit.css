@@ -41,6 +41,15 @@
     padding: 20px 30px;
 }
 
+.produit-container .produit .note a {
+    color: #006f9a;
+    padding: 0 10px;
+}
+
+.produit-container .produit .note a:hover {
+    color: rgb(0, 192, 243);
+}
+
 /**************************************************** Ajouter-panier **********************************************/
 
 .ajouter-panier {
@@ -216,105 +225,105 @@
 
 /********************************************* Avis Clients ********************************************************/
 
-.produit-container .avis-client h2 {
+.produit-container #avis-client h2 {
     color: #04ab5e;
     display: inline;
     border-bottom: 4px solid #04ab5e;
     margin-left: 6%;
 }
 
-.produit-container .avis-client h3 {
+.produit-container #avis-client h3 {
     text-align: center;
     padding-top: 10px;
 }
 
-.produit-container .avis-client .barre {
+.produit-container #avis-client .barre {
     height: 20px;
     width: 300px;
     background-color: rgb(230, 230, 230);
 }
 
-.produit-container .avis-client .fill1 {
+.produit-container #avis-client .fill1 {
     width: 53%;
     background: #fbc02d;
     height: 20px;
 }
 
-.produit-container .avis-client .fill2 {
+.produit-container #avis-client .fill2 {
     width: 27%;
     background: #fbc02d;
     height: 20px;
 }
-.produit-container .avis-client .fill3 {
+.produit-container #avis-client .fill3 {
     width: 12%;
     background: #fbc02d;
     height: 20px;
 }
 
-.produit-container .avis-client .fill4 {
+.produit-container #avis-client .fill4 {
     width: 15%;
     background: #fbc02d;
     height: 20px;
 }
 
-.produit-container .avis-client .note-barre {
+.produit-container #avis-client .note-barre {
     display: flex;
     align-items: center;
 }
 
-.produit-container .avis-client .liste-commentaire h4 {
+.produit-container #avis-client .liste-commentaire h4 {
     padding: 10px;
     margin-bottom: 20px;
 }
 
-.produit-container .avis-client .commentaire {
+.produit-container #avis-client .commentaire {
     padding: 10px 5%;
     margin-bottom: 30px;
 }
 
-.produit-container .avis-client .commentaire-header {
+.produit-container #avis-client .commentaire-header {
     display: flex;
     justify-content: space-between;
 }
 
-.produit-container .avis-client .commentaire-header div {
+.produit-container #avis-client .commentaire-header div {
     display: flex;
     align-items: center;
 }
 
-.produit-container .avis-client .commentaire-header a {
+.produit-container #avis-client .commentaire-header a {
     color: #006f9a;
     padding: 0 10px;
 }
 
-.produit-container .avis-client .commentaire-header a:hover {
+.produit-container #avis-client .commentaire-header a:hover {
     color: rgb(0, 192, 243);
 }
 
-.produit-container .avis-client .commentaire p {
+.produit-container #avis-client .commentaire p {
     padding: 5px 0;
 }
 
-.produit-container .avis-client .commentaire .yes {
+.produit-container #avis-client .commentaire .yes {
     color: rgb(141, 204, 2);
     font-size: 1.2em;
 }
 
 
 
-.produit-container .avis-client .commentaire .no {
+.produit-container #avis-client .commentaire .no {
     color: #F0470E;
     font-size: 1.2em;
 }
 
 
 @media (min-width: 767px) {
-    .produit-container .avis-client {
+    .produit-container #avis-client {
         background-color: white;
         margin-top: 30px;
     }
 
-    .produit-container .avis-client .barre-note-moyenne {
+    .produit-container #avis-client .barre-note-moyenne {
         display: flex;
         justify-content: space-around;
         padding-top: 10px;
@@ -322,18 +331,18 @@
 }
 
 @media (max-width: 767px) {
-    .produit-container .avis-client {
+    .produit-container #avis-client {
         background-color: white;
         margin-top: 15px;
     }
 
-    .produit-container .avis-client .barre-note-moyenne {
+    .produit-container #avis-client .barre-note-moyenne {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
 
-    .produit-container .avis-client .note-moyenne {
+    .produit-container #avis-client .note-moyenne {
         margin-bottom: 10px;
     }
 }

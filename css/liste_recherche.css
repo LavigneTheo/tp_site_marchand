@@ -13,38 +13,44 @@ main .liste-header {
 
 main .liste-header i {
     margin-left: 20px;
+}
 main .liste-header i {
     margin-left: 20px;
     color: #006f9a;
 }
 
-}
+
 
 /********************************** Liste article *******************************************************/
 
 .liste-container article {
-    border-bottom: solid 1px rgba(230, 230, 230);
+    border-bottom: solid 1px rgb(230, 230, 230);
 }
 
-.liste-container article img {
+.liste-container article.liste-resultat img {
     display: block;
     margin: auto;
 }
 
-.liste-container article h4 {
+.liste-container article.liste-resultat p {
+    height: 10em;
+    overflow: hidden;
+}
+
+.liste-container article.liste-resultat h4 {
     text-align: center;
     padding: 10px 0;
 }
-.liste-container article .price {
+.liste-container article.liste-resultat .price {
     display: flex;
     justify-content: space-between;
 }
 
-.liste-container article .price-container {
+.liste-container article.liste-resultat .price-container {
     padding: 0 5%;
 }
 
-.liste-container article .note {
+.liste-container article.liste-resultat .note {
     text-align: center;
     padding: 0 5px;
     padding-bottom: 10px;
