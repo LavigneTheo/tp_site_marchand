@@ -75,6 +75,92 @@ a {
     }
 }
 
+/************************************************** Prices *******************************************************/
+
+.unite {
+    font-size: 50px;
+}
+
+.centime {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 192, 243);
+    line-height: 1em;
+    justify-content: flex-start;
+}
+
+
+.ancient-prix {
+    font-size: 0.8em;
+    text-decoration: line-through;
+    line-height: 1em;
+}
+
+.reduc {
+    color: black;
+    height: 3em;
+    width: 3em;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: #F7E900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eco-taxe {
+    color: #006f9a;
+    font-size: 0.75em;
+    font-style: italic;
+    line-height: 1em;
+}
+
+.no-reduc {
+    color: transparent;
+    height: 3em;
+    width: 3em;
+    background-color: transparent;
+}
+
+/*************************************** Pagination ************************************************/
+.pagination {
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.pagination .pagination-number {
+    border-radius: 5px;
+    color: #1390be;
+    padding: 0.1em;
+    display: flex;
+    width: 1.5em;
+    height: 1.5em;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.pagination .pagination-number a:hover {
+    color: black;
+}
+
+.pagination i {
+    color: #1390be;
+}
+
+.pagination .active {
+    background-color: #1390be;
+    color: white !important;
+}
+
 
 /****************************************** Etapes *********************************************/
 .etape .etape-item span:nth-child(2) {
@@ -207,14 +293,3 @@ footer span {
 
 
 
-.reduc {
-    color: black;
-    height: 3em;
-    width: 3em;
-    font-weight: bolder;
-    border-radius: 50%;
-    background-color: #F7E900;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}

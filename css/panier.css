@@ -118,32 +118,6 @@
     padding: 10px 2.5%;
 }
 
-.panier-container .liste-commande .skin-list-item .unite {
-    font-size: 50px;
-}
-
-.panier-container .liste-commande .skin-list-item .centime {
-    font-size: 25px;
-    padding-right: 10px;
-}
-
-
-
-.panier-container .liste-commande .skin-list-item .price {
-    display: flex;
-    align-items: center;
-    color: rgb(0, 192, 243);
-    line-height: 1em;
-    justify-content: flex-start;
-}
-
-
-.panier-container .liste-commande .skin-list-item .ancient-prix {
-    font-size: 0.8em;
-    text-decoration: line-through;
-    line-height: 1em;
-}
-
 .panier-container .liste-commande .skin-list-item .price-remove-container {
     flex-grow: 100;
 }
@@ -168,9 +142,6 @@
 .panier-container .liste-commande .skin-list-item:last-child {
     border: none;
     padding-bottom: 0;
-}
-.panier-container .liste-commande .skin-list-item .price-container {
-
 }
 
 
@@ -213,20 +184,6 @@
 
 .actif {
     color: #1390be;
-}
-
-.no-reduc {
-    color: transparent;
-    height: 3em;
-    width: 3em;
-    background-color: transparent;
-}
-
-.eco-taxe {
-    color: #006f9a;
-    font-size: 0.75em;
-    font-style: italic;
-    line-height: 1em;
 }
 
 

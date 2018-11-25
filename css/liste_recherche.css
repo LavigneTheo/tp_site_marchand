@@ -1,0 +1,70 @@
+.liste-container {
+    background-color: white;
+}
+
+/************************************** Liste-header *************************************************/
+
+main .liste-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+main .liste-header i {
+    margin-left: 20px;
+main .liste-header i {
+    margin-left: 20px;
+    color: #006f9a;
+}
+
+}
+
+/********************************** Liste article *******************************************************/
+
+.liste-container article {
+    border-bottom: solid 1px rgba(230, 230, 230);
+}
+
+.liste-container article img {
+    display: block;
+    margin: auto;
+}
+
+.liste-container article h4 {
+    text-align: center;
+    padding: 10px 0;
+}
+.liste-container article .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liste-container article .price-container {
+    padding: 0 5%;
+}
+
+.liste-container article .note {
+    text-align: center;
+    padding: 0 5px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 767px) {
+    main {
+        background-color: rgba(230, 230, 230, 1);
+        padding: 30px 2%;
+    }
+
+    .liste-container article {
+        margin: 10px 4%;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    main {
+        background-color: rgba(230, 230, 230, 1);
+        padding: 15px 0;
+    }
+}
