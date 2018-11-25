@@ -73,6 +73,11 @@
     padding: 10px 5%;
 }
 
+.promo-container .promo-item p {
+    height: 5em;
+    overflow: hidden;
+}
+
 
 /******************************************* PROMOTIONS ****************************************/
 
@@ -82,8 +87,6 @@
         padding: 30px 2%;
         background-color: rgb(230, 230, 230);
     }
-
-
 }
 
 @media (max-width: 767px) {

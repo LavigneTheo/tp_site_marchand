@@ -29,7 +29,7 @@ p  {
     padding: 10px;
 }
 
-input[type="text"],.formulaire {
+.formulaire1 input[type="text"],.formulaire {
     width: 90%;
     margin: 0 auto;
 }
