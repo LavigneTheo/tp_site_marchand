@@ -2,6 +2,9 @@
 
 <html lang="fr">
 
+<!-- Utilisation d'une petite partie de la template suivante : https://templated.co/projection   -->
+
+
 <head>
 
     <meta charset="utf-8">
@@ -11,17 +14,20 @@
     <title>Paiement</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-          crossorigin="anonymous">
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/simplegrid.css">
     <link rel="stylesheet" href="css/style_paiement.css">
-    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/base.css">
 
 
 </head>
 
 <body>
+
+    <!--****************************** header ******************************-->
+
     <header>
         <nav class="grid">
             <div class="col-2-12 nav-item">
@@ -46,6 +52,9 @@
     </header>
 
     <div class="validationcommandecontainer">
+
+        <!--****************************** étapes ******************************-->
+
         <div class="etape">
             <ul>
                 <li>
@@ -69,65 +78,65 @@
             </ul>
         </div>
 
-        <!--  adresse de livraison     -->
+        <!--****************************** adresse de livraison ******************************-->
 
         <section class="formulaire1">
             <h1 class="title">3 . Récapitulatif de la commande</h1>
             <div class="container">
                 <div class="grid grid-pad">
 
-                <div class="panier-container">
-                    <aside class="payer-commande">
+                    <div class="panier-container">
+                        <aside class="payer-commande">
 
-                        <div class="item-price-container">
-                            <div class="item-price">
-                                <span class="item-name">Skin dinosaure</span>
+                            <div class="item-price-container">
+                                <div class="item-price">
+                                    <span class="item-name">Skin dinosaure</span>
 
-                                <div class="price">
-                                    <span class="unite">89€</span>
-                                    <span class="centime">99</span>
+                                    <div class="price">
+                                        <span class="unite">89€</span>
+                                        <span class="centime">99</span>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="item-price">
-                                <span class="item-name">Skin sombre</span>
+                                <div class="item-price">
+                                    <span class="item-name">Skin sombre</span>
 
-                                <div class="price">
-                                    <span class="unite">79€</span>
-                                    <span class="centime">99</span>
+                                    <div class="price">
+                                        <span class="unite">79€</span>
+                                        <span class="centime">99</span>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="item-price">
-                                <span class="item-name">Skin tenebreux</span>
+                                <div class="item-price">
+                                    <span class="item-name">Skin tenebreux</span>
 
-                                <div class="price">
-                                    <span class="unite">54€</span>
-                                    <span class="centime">99</span>
+                                    <div class="price">
+                                        <span class="unite">54€</span>
+                                        <span class="centime">99</span>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="item-price">
-                                <span class="item-name">Skin cosmique</span>
+                                <div class="item-price">
+                                    <span class="item-name">Skin cosmique</span>
 
-                                <div class="price">
-                                    <span class="unite">89€</span>
-                                    <span class="centime">99</span>
+                                    <div class="price">
+                                        <span class="unite">89€</span>
+                                        <span class="centime">99</span>
+                                    </div>
                                 </div>
+
                             </div>
 
-                        </div>
+                            <div class="total-price">
+                                <span>Total à payer : </span>
+                                <div class="price">
+                                    <span class="unite">219€</span>
+                                    <span class="centime">96</span>
+                                </div>
 
-                        <div class="total-price">
-                            <span>Total à payer : </span>
-                            <div class="price">
-                                <span class="unite">219€</span>
-                                <span class="centime">96</span>
                             </div>
 
-                        </div>
-
-                    </aside>
+                        </aside>
                     </div>
                 </div>
 
@@ -138,7 +147,8 @@
 
             </div>
         </section>
-        <!--  coordonnées client    -->
+
+        <!--****************************** coordonnées client ******************************-->
 
         <section class="formulaire2">
             <h1 class="title">4 . Mode de paiement</h1>
@@ -165,6 +175,8 @@
 
 
     </div>
+
+    <!--****************************** footer ******************************-->
 
     <footer>
         <div>
